@@ -14,7 +14,7 @@ guessed_letters = [] # the letters which the user has already guessed
 def chooseWord():
     global failed_guesses
     global guessed_letters
-    guessed_letters = 0
+    guessed_letters = []
 
     failed_guesses = 0
     failed_guesses_text.config(text='Failed guesses: ' + str(failed_guesses) + '/5')
